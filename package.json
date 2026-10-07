@@ -1,0 +1,21 @@
+{
+  "name": "reachout-bench",
+  "version": "0.2.0",
+  "description": "A benchmark of when a health companion AI should proactively reach out to a user.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "fetch-data": "node scripts/fetch-data.js",
+    "validate": "node scripts/validate.js data/seed/seed.json",
+    "adjudicate": "node scripts/adjudicate.js",
+    "score": "node scripts/score.js",
+    "run:brooo": "node --env-file=\"$BROOO_BACKEND_DIR/.env\" adapters/brooo/run.js",
+    "run:brooo-fallback": "node adapters/brooo/run.js --fallback",
+    "run:reference": "node adapters/reference/run.js",
+    "export:hf": "node scripts/export-hf.js"
+  }
+}

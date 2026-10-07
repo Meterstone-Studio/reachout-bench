@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use ReachOut-Bench, please cite it as below."
+title: "ReachOut-Bench: When Should a Health Companion AI Message You First?"
+version: 0.2.0
+date-released: 2026-10-04
+license: CC-BY-4.0
+repository-code: "https://github.com/Meterstone-Studio/reachout-bench"
+authors:
+  - name: "ReachOut-Bench contributors"
+keywords:
+  - benchmark
+  - proactive agents
+  - health
+  - safety
+  - synthetic data

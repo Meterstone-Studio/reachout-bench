@@ -1,0 +1,14 @@
+node_modules/
+runs/
+.env
+.DS_Store
+dist/
+.cache/
+# Gated on Hugging Face (npm run fetch-data), kept off GitHub
+data/test.jsonl
+data/candidates/
+labels/*.jsonl
+labels/*.json
+review/clinical-review-sheet.csv
+results/2026-10-04/verdicts-*.jsonl
+private/
